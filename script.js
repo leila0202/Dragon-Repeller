@@ -22,13 +22,14 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 
 function goTown() {
-  button1.innerText = "Buy 10 health (10 gold)";
-  button1.onclick = buyHealth;
-  button2.innerText = "Buy weapon (30 gold)";
-  button2.onclick = buyWeapon;
-  button3.innerText = "Go to town square";
-  button3.onclick = goTown;
-  text.innerText = "You enter the store.";
+  button1.innerText = "Go to store";
+  button1.onclick = goStore;
+  button2.innerText = "Go to cave";
+  button2.onclick = goCave;
+  button3.innerText = "Fight dragon";
+  button3.onclick = fightDragon;
+  text.innerText =
+    "You are in the town square. You see a sign that says Store.";
 }
 
 function goStore() {
