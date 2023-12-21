@@ -21,4 +21,6 @@ button1.onclick = goStore;
 button2.onclick = goCave;
 button3.onclick = fightDragon;
 
-function goStore() {}
+function goStore() {
+  console.log("Going to store.");
+}
