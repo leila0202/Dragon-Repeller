@@ -28,6 +28,7 @@ function goStore() {
   button2.onclick = buyWeapon;
   button3.innerText = "Go to town square";
   button3.onclick = goTown;
+  text.innerText = "You enter the store.";
 }
 
 function goCave() {
