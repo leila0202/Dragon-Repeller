@@ -152,3 +152,5 @@ function fightDragon() {
 function fightSlime() {}
 
 function fightBeast() {}
+
+function goFight() {}
