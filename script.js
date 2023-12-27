@@ -263,3 +263,7 @@ function restart() {
   goldText.innerText = gold;
   goTown();
 }
+
+function easterEgg() {
+  update(locations[7]);
+}
