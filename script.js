@@ -292,5 +292,8 @@ function pick(guess) {
     text.innerText += numbers[i] + "\n";
   }
   if (numbers.indexOf(guess) !== -1) {
+    text.innerText += "Right! You win 20 gold!";
+    gold += 20;
+    goldText.innerText = gold;
   }
 }
