@@ -291,4 +291,6 @@ function pick(guess) {
   for (let i = 0; i < 10; i++) {
     text.innerText += numbers[i] + "\n";
   }
+  if (numbers.indexOf(guess) !== -1) {
+  }
 }
